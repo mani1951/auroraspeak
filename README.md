@@ -13,6 +13,12 @@ AuroraSpeak is a lightweight web client that lets you chat with locally configur
 
 ---
 
+## Interface Preview
+
+![AuroraSpeak conversation screenshot](read.png)
+
+---
+
 ## Quick Start
 
 1. Clone or download the project files.
