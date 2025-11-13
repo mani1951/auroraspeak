@@ -1,76 +1,61 @@
-# Free & Unlimited AI Chatbot
+# AuroraSpeak
 
-**Free AI Chatbot** is a web-based chatbot application that uses the [js.puter.com/v2](https://js.puter.com/v2) API to serve AI-powered responses. Users can interact with a wide range of AI models for text and image generation directly from the chat interface.
-
----
-
-## Features
-
-- Chat with multiple AI models for text and image generation.
-- Supports the latest GPT, Claude, Mistral, Llama, Gemini, and DALL-E models.
-- Easy-to-use web interface with dynamic model selection.
-- Fast and responsive chat experience.
+AuroraSpeak is a lightweight web client that lets you chat with locally configured AI services through a clean, responsive interface. The focus is on clarity, speed, and full transparency over which model is responding.
 
 ---
 
-## Supported AI Models
+## Highlights
 
-### Text Models
-| Index | Model |
-|-------|-------|
-| 0 | gpt-5 |
-| 1 | gpt-5-mini |
-| 2 | gpt-5-nano |
-| 3 | gpt-5-chat-latest |
-| 4 | gpt-4.1 |
-| 5 | gpt-4.1-mini |
-| 6 | gpt-4.1-nano |
-| 7 | gpt-4.5-preview |
-| 8 | gpt-4o |
-| 9 | gpt-4o-mini |
-| 10 | o1 |
-| 11 | o1-mini |
-| 12 | o1-pro |
-| 13 | o3 |
-| 14 | o3-mini |
-| 15 | o4-mini |
-| 16 | claude-sonnet-4 |
-| 17 | claude-opus-4 |
-| 18 | meta-llama/llama-4-maverick |
-| 19 | mistralai/mistral-large |
-| 20 | mistralai/codestral-2508 |
-| 21 | google/gemini-2.5-flash |
-
-### Image Models
-| Index | Model |
-|-------|-------|
-| 22 | gpt-image-1 |
-| 23 | dall-e-3 |
-| 24 | dall-e-2 |
-| 25 | gemini-2.5-flash-image-preview |
+- Seamless single-page UI with instant model switching.
+- Supports both conversational and image-style prompts.
+- Friendly error messaging with built-in retry guidance.
+- Works entirely in the browser — no server setup required.
 
 ---
 
-## Access Chatbot
-URL : https://puter.com/app/free-ai-chatbot
+## Quick Start
 
-## Imgaes
-<img width="1475" height="959" alt="chatbot" src="https://github.com/user-attachments/assets/30f76b49-8542-4740-a28e-94daac62780e" />
+1. Clone or download the project files.
+2. Open `index.html` in your browser.
+3. Configure your preferred models inside `models.json`.
+4. Start chatting instantly.
 
-## Information
+---
 
-### Some models may not work because they require a paid plan.
+## Project Layout
 
-If you encounter the following error:
+- `index.html` — main application shell.
+- `app.js` — chat orchestration, model handling, and rendering logic.
+- `style.css` — layout, theming, and responsive design rules.
+- `models.json` — curated list of model identifiers shown in the UI.
+- `new-feature.html` — experimental playground for upcoming UI ideas.
 
-```
+---
 
-Error: {"success":false,"error":{"delegate":"usage-limited-chat","message":"Error 400 from delegate `usage-limited-chat`: Permission denied.","code":"error_400_from_delegate","$":"heyputer:api/APIError","status":400}}
+## Configuration Tips
 
-```
+- Add or remove model identifiers by editing `models.json`.
+- Toggle default model selection through the `defaultModel` field in `app.js`.
+- Adjust theme colors and spacing via CSS variables in `style.css`.
 
-### Please try clearing your browser cookies or open the chatbot in a private/incognito window.
+---
 
+## Contributing
 
+- Fork the project or open an issue describing the change you have in mind.
+- Keep pull requests focused on a single improvement.
+- Include a short summary of manual testing or screenshots where appropriate.
 
+---
 
+## Roadmap
+
+- Add optional voice input for hands-free sessions.
+- Expand support for streamed responses.
+- Introduce offline-first caching for frequently used prompts.
+
+---
+
+## License
+
+This project is released under the terms of the included `LICENSE`.
